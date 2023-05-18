@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/koed.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ukm6yos.css">
+    <script src="script/bestil-koed.js" defer></script>
+</head>
+<body>
+   <div class="siden">
+        <div class="mix-wrapper">
+            <section class="luk">
+                <img src="/img/kryds.png" alt="Luk">
+            </section>
+            <section class="overskrift">
+                <h1>Kød-Kassen</h1>
+                <p>
+                    Kød-kassen er til dig der sætter pris på at får kød til hvert aftensmadsmåltid. 
+                    Her får du tre retter med kvalitetskød i forskellige afskygninger.  
+                    De tre retter ændre sig fra uge til uge.
+                </p>
+            </section>
+            <section class="retter">
+                <div class="ret-1">
+                    <img class="mad" src="/img/miso-oksekoed.png" alt="Miso med oksekød">
+                    <h6>Miso med oksekød</h6>
+                    <p>Miso suppe med oksekød er fuld af <br> god smag.</p>
+                    <a href="#">Opskrift</a>
+                </div>
+                <div class="ret-2">
+                    <img class="mad" src="/img/ramen-med-kylling.png" alt="Ramen med kylling og grøntsager">
+                    <h6>Ramen med kylling og grøntsager</h6>
+                    <p>Ramen er en krydret nudelsuppe med <br> en masse lækkert fyld.</p>
+                    <a href="ramen.html">Opskrift</a>
+                </div>
+                <div class="ret-3">
+                    <img class="mad" src="/img/gyoza-grisekoed.png" alt="Gyoza med grisekød">
+                    <h6>Gyoza med grisekød</h6>
+                    <p>Dampede japanske dumplings med <br> fyld af grisekød.</p>
+                    <a href="#">Opskrift</a>
+                </div>
+            </section>
+            <section class="bestil">
+                <h3>Bestil Kød-Kassen</h3>
+                <div class="knap">
+                    <div onclick="enPersonValgt1()" id="pers1">1 Person</div>
+                    <div onclick="toPersonerValgt1()" id="pers2">2 Personer</div>
+                </div>
+                <div class="streg"></div>
+                <div class="valg">
+                    <div class="engangs">
+                        <h3>Køb som engangskasse</h3>
+                        <p>
+                            Ønsker du at prøve en japansk måltidskasse for at se om det er noget for dig.
+                            Så er engangskassen en oplagt mulighed for dig.
+                            Her kan du prøve tre forskellige japanske retter uden at binde dig til noget.
+                        </p>
+                        <h6 id="engangspris">509 kr</h6>
+                        <!-- Rettet fra checkout.html til checkoutout.html -->
+                        <a href="checkoutout.html" class="koeb">Køb</a> 
+                    </div>
+                    <div class="abonnement">
+                        <h3>Køb som abonnement</h3>
+                        <p>
+                            Hvis du gerne vil en japansk måltidskasse til døren hver uge, så er abonnement for dig.
+                            Udover at du ikke skal tænke på at bestille fra uge til uge, så får du også <b>15% rabat</b> på hver kasse.
+                            Afmeld senest onsdag, for at du ikke modtager næste uges kasse.
+                        </p>
+                        <h6 id="abonnementspris">432 kr</h6>
+                        <!-- Rettet fra checkout.html til checkoutout.html -->
+                        <a href="checkoutout.html" class="koeb">Køb</a> 
+                    </div>
+                </div>
+            </section>  
+        </div>
+    </div>
+</body>
+</html>
